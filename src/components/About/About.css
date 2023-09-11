@@ -1,0 +1,98 @@
+.about-container {
+  /* height: 120vh; */
+  margin-top: 80px;
+  margin-bottom: 100px;
+  /* width: 100%; */
+  /* background-color: green; */
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(../../../public/assets/images/sshero1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.hero-text p {
+  font-size: 20px;
+  font-weight: 20px;
+  line-height: 10px;
+}
+
+.about-about {
+  /* background-color: #a5412a; */
+  padding: 30px;
+  margin-top: 50px;
+  color: black;
+}
+.h1-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #2aa555; */
+  border-radius: 100px;
+  width: 100%;
+  background-color: #a5412a;
+  color: white;
+}
+.about-about h1 {
+  text-align: left;
+}
+.about-about h1 {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.about-team h1 {
+  text-align: right;
+  margin-right: 100px;
+  font-size: 50px;
+}
+.team-p {
+  text-align: right;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.shape-p {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.about-team-cards {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+  /* height: 100vh; */
+  width: 98vw;
+  margin-top: 80px;
+}
+
+@media (max-width: 720px) {
+  .about-about h1 {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  .team-p {
+    text-align: center;
+    margin-right: 0;
+    font-size: 18px;
+  }
+}
