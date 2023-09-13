@@ -62,7 +62,7 @@
     height: 80vh;
     width: 70%;
     margin-bottom: 100px;
-    background-color: rgb(157, 101, 101);
+    /* background-color: rgb(157, 101, 101); */
   }
   .service-card p {
     text-align: center;
