@@ -50,4 +50,10 @@
   .footer-container {
     margin-top: 50px;
   }
+  .footer-right-part p {
+    font-size: 16px;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
 }

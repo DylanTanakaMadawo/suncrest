@@ -34,6 +34,24 @@
   cursor: pointer;
 }
 
+.service-btn {
+  /* border: none; */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 11px 20px;
+  font-size: 18px;
+  background-color: transparent;
+  /* border-radius: 30px; */
+  border: 2px solid #a5412a;
+  cursor: pointer;
+}
+
+.service-btn:hover {
+  background-color: #a5412a46;
+  transition: 0.2s ease-in-out;
+}
+
 .service-btn-container button:hover {
   background-color: #a5412a46;
   transition: 0.2s ease-in-out;

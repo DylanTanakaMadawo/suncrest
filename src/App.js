@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Homepage } from "./components/Homepage/Homepage";
 import { Footer } from "./components/Footer/Footer";
 import { About } from "./components/About/About";
+import { MainServices } from "./components/MainServices/MainServices";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/about" element={<About />} />
+              <Route path="/services" element={<MainServices />} />
             </Routes>
             <Footer />
           </BrowserRouter>

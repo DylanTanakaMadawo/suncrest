@@ -75,7 +75,7 @@ export const NavbarDrawer = () => {
                 </ListItemText>
                 <ListItemText>
                   <Link
-                    to="/"
+                    to="/services"
                     style={{
                       textDecoration: "none",
                       color: "black",

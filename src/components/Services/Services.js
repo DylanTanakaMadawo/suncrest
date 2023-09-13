@@ -20,22 +20,22 @@ export const Services = () => {
       <div className="services-card-container">
         <ServiceCard
           image="./assets/images/seo.svg"
-          header="SEO & Content Marketing"
+          header="Social Media | LeadGen"
           description="Our expert SEO team and content writers will create a conversion-driven digital marketing strategy based on our years’ of experience in SEO consultancy and strategy implementation."
         />
         <ServiceCard
           image="./assets/images/ppc.svg"
-          header="PPC: Google & Facebook Advertising"
+          header="AdCamp | PPC"
           description="Trust our Google Premier Partner marketing experts to build a custom PPC campaign such as a Google or Facebook ads strategy designed to achieve your business’ goals and desired outcomes."
         />
         <ServiceCard
           image="./assets/images/cro.svg"
-          header="Conversion Rate Optimization"
-          description="Our CRO strategists will effectively maximize your conversion rates to provide a better user experience thanks to our unparalleled customer research and skilled team members"
+          header="Modern Funnel tech"
+          description="Our Funnel tech strategists will effectively maximize your conversion rates to provide a better user experience thanks to our unparalleled customer research and skilled team members"
         />
         <ServiceCard
           image="./assets/images/saas.svg"
-          header="Web & Logo Development"
+          header="Web Dev |SEO"
           description="Suncrest’s team of Web design and development experts work with your business to find, nurture, and convert qualified leads based on modern designs."
         />
       </div>

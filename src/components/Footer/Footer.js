@@ -25,6 +25,7 @@ export const Footer = () => {
         <Divider
           sx={{
             color: "white",
+            marginLeft: "50px",
             marginTop: "20px",
             "&::before, &::after": {
               borderColor: "gray",
