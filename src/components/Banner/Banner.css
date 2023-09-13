@@ -33,6 +33,16 @@
   height: 100%;
 }
 
+.banner-btn-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin: auto; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
 .banner-btn {
   border: none;
   padding: 20px;
@@ -60,6 +70,6 @@
     width: 80%;
   }
   .banner-btn-container {
-    margin-left: 15%;
+    margin: auto;
   }
 }

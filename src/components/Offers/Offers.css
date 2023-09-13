@@ -32,11 +32,20 @@
   margin-right: 10px;
 }
 
+.a-d {
+  display: none;
+}
 @media (max-width: 720px) {
   .offers-container {
-    height: 60vh;
+    height: 100vh;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #a5412a, #0c0807);
+  }
+  .a-d {
+    display: flex;
+  }
+  .a-f {
+    display: none;
   }
   .offers-text {
     width: 90%;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ArrowForward } from "@mui/icons-material";
+import { ArrowForward, ArrowDownward } from "@mui/icons-material";
 
 import "./Offers.css";
 
@@ -15,7 +15,12 @@ export const Offers = () => {
         </p>
         <div className="watch-video">
           <h3>Watch this video to Learn More</h3>
-          <ArrowForward />
+          <div className="a-f">
+            <ArrowForward />
+          </div>
+          <div className="a-d">
+            <ArrowDownward />
+          </div>
         </div>
       </div>
       <div className="offers-video">

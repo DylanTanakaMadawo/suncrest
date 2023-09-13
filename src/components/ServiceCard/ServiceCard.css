@@ -59,9 +59,10 @@
 
 @media (max-width: 720px) {
   .service-card {
-    height: 60vh;
+    height: 80vh;
     width: 70%;
     margin-bottom: 100px;
+    background-color: rgb(157, 101, 101);
   }
   .service-card p {
     text-align: center;
@@ -73,7 +74,7 @@
 @media (max-width: 950px) {
   .service-card {
     width: 70%;
-    height: 60vh;
+    height: 8;
     margin-bottom: 100px;
   }
   .service-card p {

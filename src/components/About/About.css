@@ -94,5 +94,19 @@
     text-align: center;
     margin-right: 0;
     font-size: 18px;
+    padding: 10px;
+  }
+  .about-team h1 {
+    text-align: center;
+  }
+  .h1-div {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1-div h1 {
+    /* text-align: center; */
+    font-size: 30px;
   }
 }

@@ -98,8 +98,12 @@
     /* background-color: gold; */
     /* background-color: red; */
     /* margin-top: 30px; */
-    width: 40%;
+    width: 55%;
     height: 30%;
+  }
+  .service-img2 img {
+    width: 100%;
+    height: 100%;
   }
   .service-txt {
     width: 90%;
